@@ -1,0 +1,26 @@
+[project]
+name = "xray-classification-system"
+version = "0.1.0"
+description = "MURA X-ray normal/abnormal classification with MobileNetV3 and ViT."
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "numpy",
+  "pandas",
+  "pillow",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "tqdm",
+  "fastapi",
+  "uvicorn",
+  "python-multipart",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["xray_classifier*"]
+
+[tool.setuptools.package-dir]
+"" = "src"
