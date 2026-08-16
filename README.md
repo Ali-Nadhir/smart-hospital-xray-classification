@@ -60,7 +60,7 @@ Evaluated on the complete MURA v1.1 validation split (3,197 radiograph images ac
 
 ```bash
 # Clone the repository
-git clone <YOUR_REPO_URL>
+git clone https://github.com/Ali-Nadhir/smart-hospital-xray-classification.git
 cd smart-hospital-xray-classification
 
 # Create and activate virtual environment
